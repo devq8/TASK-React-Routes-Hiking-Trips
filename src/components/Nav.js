@@ -2,7 +2,10 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="w-full bg-green-500 md:bg-black" id="mainNav">
+    <nav
+      className="navbar navbar-expand-lg bg-secondary text-uppercase "
+      id="mainNav"
+    >
       <div className="container">
         <a className="navbar-brand" href="/">
           Hike
